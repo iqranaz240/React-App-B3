@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import User from './components/User';
+import Expense from './components/Expense/Expense';
+import Card from './components/UI/Card';
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello World!</h1>
-     <User user='New'/>
-     <User user='Old'/>
-     <User user='Updated'/>
+     <h1>Expense Tracker App</h1>
+     <Expense/>
     </div>
   );
 }
